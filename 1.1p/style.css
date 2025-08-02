@@ -1,0 +1,81 @@
+a {
+    color: rgb(71, 168, 216);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.info {
+    font-family: 'Gill Sans';
+    color: rgb(78, 149, 125);
+}
+
+h2 {
+    color: rgb(78, 149, 125);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.class {
+    color: rgb(78, 149, 125);
+}
+
+.texthover {
+    border-radius: 30px;
+    position: absolute;
+    bottom: 280px;
+    max-width: 1000px;
+    left: 15%;
+    background-color: rgba(0, 0, 0, 0.487);
+    color: #fff;
+    font-size: 26px;
+    padding: 10px;
+    visibility: collapse;
+    transition: opacity 0.2s ease-in-out;
+    font-family: 'Gill Sans';
+}
+
+.mainimage:hover .texthover {
+    visibility: visible;
+    width: 98.7%;
+    text-align: center;
+}
+
+/* Center the image-text container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left; /* Text aligned left relative to the image */
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 0;
+}
+
+.image-container p {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Gill Sans';
+}
+
+/* Center the gallery images */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.gallery img {
+    flex-grow: 1;
+    flex-basis: 22%;
+    max-width: 300px;
+    height: auto;
+}
